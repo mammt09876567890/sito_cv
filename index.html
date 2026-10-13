@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Profilo professionale di Nicolas Ruta, perito informatico e studente universitario in Informatica.">
+  <title>Nicolas Ruta — Profilo professionale</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Torna all'inizio">NR<span>.</span></a>
+      <div class="topbar-meta">
+        <span class="availability-dot"></span>
+        <span>Disponibile per nuove opportunità</span>
+      </div>
+      <a class="contact-link" href="mailto:nicolas.ruta.07@gmail.com">Contattami <i data-lucide="arrow-up-right"></i></a>
+    </header>
+
+    <main id="top">
+      <section class="hero-section">
+        <div class="hero-copy">
+          <p class="eyebrow"><span>01</span> Profilo professionale</p>
+          <h1>Idee chiare.<br><em>Risultati visibili.</em></h1>
+          <p class="hero-intro">Sono Nicolas Ruta, perito informatico e studente universitario. Unisco sviluppo software, reti e una forte manualità per trasformare la teoria in soluzioni concrete.</p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#documenti">Scopri il mio profilo <i data-lucide="arrow-down"></i></a>
+            <a class="text-button" href="mailto:nicolas.ruta.07@gmail.com">Scrivimi <i data-lucide="arrow-up-right"></i></a>
+          </div>
+        </div>
+        <div class="hero-aside" aria-label="Informazioni rapide">
+          <div class="portrait-frame">
+            <div class="portrait-monogram">NR</div>
+            <div class="portrait-caption">Felizzano / AL / Italia<br>Disponibile per nuove opportunità</div>
+          </div>
+          <div class="scroll-note"><span class="scroll-line"></span> Scorri per conoscermi</div>
+        </div>
+      </section>
+
+      <section class="signal-section">
+        <p class="section-kicker">Cosa porto al tavolo</p>
+        <div class="signal-grid">
+          <div class="signal-item"><strong>3</strong><span>esperienze pratiche</span></div>
+          <div class="signal-item"><strong>2°</strong><span>posto al concorso d'impresa</span></div>
+          <div class="signal-item signal-accent"><strong>B2</strong><span>livello di inglese</span></div>
+        </div>
+      </section>
+
+      <section class="documents-section" id="documenti">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span>02</span> I miei documenti</p>
+            <h2>Scegli il formato<br>che ti serve.</h2>
+          </div>
+          <p class="section-note">Curriculum, formato europeo e lettera di presentazione: tutto il necessario per raccontare il mio percorso.</p>
+        </div>
+
+        <div class="document-layout">
+          <div class="document-list" role="tablist" aria-label="Documenti professionali">
+            <button type="button" class="document-button active" role="tab" aria-selected="true" aria-controls="panel-cv" data-panel="panel-cv">
+              <span class="document-number">01</span><span class="document-label">CV</span><i data-lucide="arrow-up-right"></i>
+            </button>
+            <button type="button" class="document-button" role="tab" aria-selected="false" aria-controls="panel-europeo" data-panel="panel-europeo">
+              <span class="document-number">02</span><span class="document-label">CV europeo</span><i data-lucide="arrow-up-right"></i>
+            </button>
+            <button type="button" class="document-button" role="tab" aria-selected="false" aria-controls="panel-lettera" data-panel="panel-lettera">
+              <span class="document-number">03</span><span class="document-label">Lettera di presentazione</span><i data-lucide="arrow-up-right"></i>
+            </button>
+          </div>
+
+          <div class="document-preview">
+            <article class="document-panel active" id="panel-cv" role="tabpanel">
+              <div class="panel-topline"><span>Curriculum vitae</span><span>01 / 03</span></div>
+              <h3>Un profilo tecnico, concreto.</h3>
+              <p>Formazione informatica, esperienza in logistica e animazione, competenze in sviluppo web, database, reti e sistemi.</p>
+              <div class="panel-tags"><span>Java / PHP</span><span>Reti e VPN</span><span>Arduino</span></div>
+              <a class="download-link" href="Curriculum_Vitae_Nicolas_Ruta.pdf" download>Scarica il documento <i data-lucide="download"></i></a>
+            </article>
+            <article class="document-panel" id="panel-europeo" role="tabpanel" hidden>
+              <div class="panel-topline"><span>Formato europeo</span><span>02 / 03</span></div>
+              <h3>Il percorso, in formato europeo.</h3>
+              <p>Il quadro completo di esperienze, studi, competenze tecniche, certificazione Cisco e patente B.</p>
+              <div class="panel-tags"><span>UPO Informatica</span><span>Cisco</span><span>Inglese B2</span></div>
+              <a class="download-link" href="CV%20Europeo%20-%20Nicolas%20Ruta.pdf" download>Scarica il documento <i data-lucide="download"></i></a>
+            </article>
+            <article class="document-panel" id="panel-lettera" role="tabpanel" hidden>
+              <div class="panel-topline"><span>Lettera di presentazione</span><span>03 / 03</span></div>
+              <h3>Motivazione, non solo competenze.</h3>
+              <p>La mia candidatura per Decathlon racconta il legame tra sport, lavoro di squadra, logistica e passione per il fitness.</p>
+              <div class="panel-tags"><span>Decathlon</span><span>Fitness</span><span>Part-time</span></div>
+              <a class="download-link" href="Lettera_presentazione_nicolas_ruta.pdf" download>Scarica il documento <i data-lucide="download"></i></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing-section">
+        <div class="closing-mark">NR<span>.</span></div>
+        <div><p class="eyebrow"><span>03</span> Il prossimo passo</p><h2>Parliamo della<br>prossima opportunità.</h2></div>
+        <a class="circle-button" href="mailto:nicolas.ruta.07@gmail.com" aria-label="Scrivimi via email" title="Scrivimi via email"><i data-lucide="arrow-up-right"></i></a>
+      </section>
+    </main>
+
+    <footer class="footer"><span>© 2026 Nicolas Ruta</span><span>Perito informatico & studente di Informatica</span><a href="mailto:nicolas.ruta.07@gmail.com">nicolas.ruta.07@gmail.com</a></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
